@@ -1,4 +1,4 @@
-$navbar-default-bg: #1D3557;
+// $navbar-default-bg: #1D3557;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -16,6 +16,26 @@ $navbar-default-bg: #1D3557;
 #logo:hover {
   color: #E63946;
   text-decoration: none;
+}
+
+.navbar-default {
+  background-color: #1D3557;
+  border-color: #1D3557;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #F1FAEE; /*Change active text color here*/
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #A8DADC;  /*Sets the text hover color on navbar*/
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #E63946;
+  text-decoration: none;
+  background-color: #A8DADC;  /*change color of links in drop down here*/
 }
 
 .center {
