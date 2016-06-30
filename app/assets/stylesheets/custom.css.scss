@@ -1,42 +1,20 @@
-// $navbar-default-bg: #1D3557;
 body {
   background-color: #f8f5f0;
 }
+
 #logo {
   float: left;
   font-size: 1.7em;
   color: #f04124;
-  // text-transform: uppercase;
   text-transform: lowercase;
   letter-spacing: -1px;
   font-weight: bold;
 }
 
 #logo:hover {
-  // color: #E63946;
   color: #fff;
   text-decoration: none;
 }
-
-// .navbar-default {
-//   background-color: #1D3557;
-//   border-color: #1D3557;
-// }
-
-// .navbar-default .navbar-nav > li > a {
-//   color: #F1FAEE; /*Change active text color here*/
-// }
-
-// .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-//   color: #A8DADC;  /*Sets the text hover color on navbar*/
-// }
-
-// .dropdown-menu > li > a:hover,
-// .dropdown-menu > li > a:focus {
-//   color: #E63946;
-//   text-decoration: none;
-//   background-color: #A8DADC;  /*change color of links in drop down here*/
-// }
 
 .center {
   text-align: center;
@@ -50,11 +28,7 @@ body {
 
 .jumbotron h1 {
   color: #f04124;
-  // color: #EB6864;
-  // color: #E63946;
-  // text-align: center;
   margin-bottom: 15px;
-  // letter-spacing: -1px;
   font-weight: bold;
 }
 
@@ -94,8 +68,6 @@ body {
 
 .badge {
   background-color: #e7e7e7;
-  // background-color: #5bc0de;
-  // background-color: #e99002;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
