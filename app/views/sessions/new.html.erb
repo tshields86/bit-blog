@@ -1,5 +1,5 @@
 <h1 align="center">Log in</h1>
-
+<br />
 <%= form_for(:session, :html => {class: "form-horizontal", role: "form"}, url: login_path) do |f| %>
   <div class="form-group">
     <div class="controll-label col-sm-2">
@@ -19,10 +19,10 @@
   </div>
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-      <%= f.submit "Log in", class: "btn btn-primary btn-lg" %>
+      <%= f.submit "Log in", class: "btn btn-success btn-lg" %>
     </div>
   </div>
 <% end %>
 <div align="center">
-  [<%= link_to "Cancel request and return to articles listing", articles_path %>]
+  [<%= link_to "Cancel request and return to articles listing", articles_path, class: "text-danger" %>]
 </div>

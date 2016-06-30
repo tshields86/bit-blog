@@ -1,12 +1,11 @@
 // $navbar-default-bg: #1D3557;
-
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
+body {
+  background-color: #f8f5f0;
+}
 #logo {
   float: left;
   font-size: 1.7em;
-  color: #E63946;
+  color: #f04124;
   // text-transform: uppercase;
   text-transform: lowercase;
   letter-spacing: -1px;
@@ -14,29 +13,30 @@
 }
 
 #logo:hover {
-  color: #E63946;
+  // color: #E63946;
+  color: #fff;
   text-decoration: none;
 }
 
-.navbar-default {
-  background-color: #1D3557;
-  border-color: #1D3557;
-}
+// .navbar-default {
+//   background-color: #1D3557;
+//   border-color: #1D3557;
+// }
 
-.navbar-default .navbar-nav > li > a {
-  color: #F1FAEE; /*Change active text color here*/
-}
+// .navbar-default .navbar-nav > li > a {
+//   color: #F1FAEE; /*Change active text color here*/
+// }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #A8DADC;  /*Sets the text hover color on navbar*/
-}
+// .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+//   color: #A8DADC;  /*Sets the text hover color on navbar*/
+// }
 
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
-  color: #E63946;
-  text-decoration: none;
-  background-color: #A8DADC;  /*change color of links in drop down here*/
-}
+// .dropdown-menu > li > a:hover,
+// .dropdown-menu > li > a:focus {
+//   color: #E63946;
+//   text-decoration: none;
+//   background-color: #A8DADC;  /*change color of links in drop down here*/
+// }
 
 .center {
   text-align: center;
@@ -45,38 +45,22 @@
 .jumbotron {
   background-image: asset-url('coding_pic.jpeg');
   background-size: cover;
-  height: 550px;
+  height: 75vh;
 }
 
 .jumbotron h1 {
-  color: #E63946;
-  text-align: center;
-  margin-bottom: 30px;
-  letter-spacing: -1px;
+  color: #f04124;
+  // color: #EB6864;
+  // color: #E63946;
+  // text-align: center;
+  margin-bottom: 15px;
+  // letter-spacing: -1px;
   font-weight: bold;
 }
 
-.btn-xlarge {
-  font-size: 1.7em;
-  background-color: #F1FAEE;
-  color: #457B9D;
+.jumbotron p {
+  color: #fff;
 }
-
-.btn-xlarge:hover {
-  color: #E63946;
-}
-
-.btn-primary {
-  background-color: #457B9D;
-}
-
-.btn-danger {
-  background-color: #E63946;
-}
-
-// .btn-success {
-//   background-color: #A8DADC;
-// }
 
 .article-meta-details {
   border-top: 1px solid #eaeaea;
@@ -109,8 +93,9 @@
 }
 
 .badge {
-  // background-color: #F1FAEE;
-  background-color: #A8DADC;
+  background-color: #e7e7e7;
+  // background-color: #5bc0de;
+  // background-color: #e99002;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
@@ -121,26 +106,16 @@
 }
 
 footer {
-  margin-top: 45px;
+  margin-top: 5vh;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #777;
 }
 
-footer a:hover {
-  color: #222;
-}
-
-footer small {
+footer .left {
   float: left;
 }
 
 footer ul {
   float: right;
   list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 15px;
 }
